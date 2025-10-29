@@ -1,6 +1,7 @@
 [[language]]
 name = "python"
-language-servers = [ "pyright" ]
+language-servers = [ "pyright"  ]
+formatter = {command = "pyright", args = ["--stdin"]}
 auto-format = true
 comment-token = "#"
 
